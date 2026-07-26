@@ -9,7 +9,17 @@ __v0_jsx-dev-runtime.ts
 # Environment variables
 .env*.local
 
-# Common ignores
-node_modules
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+# Next.js
 .next/
+
+# macOS
 .DS_Store
